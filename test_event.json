@@ -1,0 +1,51 @@
+{
+    "id": "dbf22428-ccfd-4a70-bc56-d53e5c4b0e00",
+    "timestamp": "2018-08-25T20:05:16.176Z",
+    "lang": "en",
+    "result": {
+      "source": "agent",
+      "resolvedQuery": "What is the weather in Paris today?",
+      "action": "",
+      "actionIncomplete": false,
+      "parameters": {
+        "date": "2018-08-25",
+        "geo-city": "Paris"
+      },
+      "contexts": [
+        {
+          "name": "location",
+          "parameters": {
+            "date": "2018-08-25",
+            "geo-city": "Paris",
+            "date.original": "today?",
+            "geo-city.original": "Paris"
+          },
+          "lifespan": 5
+        }
+      ],
+      "metadata": {
+        "isFallbackIntent": "false",
+        "webhookResponseTime": 260,
+        "intentName": "weather",
+        "intentId": "770fb186-edb9-48cb-98c9-3ce877cac73a",
+        "webhookUsed": "true",
+        "webhookForSlotFillingUsed": "false"
+      },
+      "fulfillment": {
+        "speech": "I don't know the weather for 2018-08-25 in Paris but I hope it's good!",
+        "messages": [
+          {
+            "type": 0,
+            "speech": "I don't know the weather for 2018-08-25 in Paris but I hope it's good!"
+          }
+        ]
+      },
+      "score": 0.8700000047683716
+    },
+    "status": {
+      "code": 206,
+      "errorType": "partial_content",
+      "errorDetails": "Webhook call failed. Error: 502 Bad Gateway"
+    },
+    "sessionId": "0f251825-d70c-9b90-3b53-e89c0451fd00"
+  }

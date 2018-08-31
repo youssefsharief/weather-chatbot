@@ -1,0 +1,8 @@
+{
+  "name": "dialogflow-lambda-weather-api",
+  "description": "dialogflow-lambda-weather-api",
+  "version": "0.0.1",
+  "devDependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
